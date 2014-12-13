@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 
+		System.out.println("This project is now in GitHub");
+
 		RPSModel model = new RPSModel();
 		System.out.println("Wer zuerst " + model.POINTS_TO_WIN
 				+ " Punkte erreicht gewinnt!");
