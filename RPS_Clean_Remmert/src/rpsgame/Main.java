@@ -6,6 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		System.out.println("This project is now in GitHub");
+		System.out.println("This line is useless");
 
 		RPSModel model = new RPSModel();
 		System.out.println("Wer zuerst " + model.POINTS_TO_WIN
