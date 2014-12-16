@@ -7,6 +7,7 @@ public class Main {
 
 		System.out.println("This project is now in GitHub");
 		System.out.println("This line is useless");
+		System.out.println("This line is useless to share.");
 
 		RPSModel model = new RPSModel();
 		System.out.println("Wer zuerst " + model.POINTS_TO_WIN
