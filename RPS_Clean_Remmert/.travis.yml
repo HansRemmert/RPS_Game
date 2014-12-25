@@ -1,8 +1,2 @@
 language: java
-script: ant deploy
-
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
+install: ant ant deploy
