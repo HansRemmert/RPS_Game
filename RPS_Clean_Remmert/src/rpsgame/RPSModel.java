@@ -8,6 +8,7 @@ public class RPSModel {
 	int pcPoints = 0;
 	public boolean gameIsRunning = true;
 
+
 	public boolean validateUserInput(String input) {
 		if (input.equals("r") || input.equals("p") || input.equals("s")) {
 			System.out.println("Du waehlst: " + input);
